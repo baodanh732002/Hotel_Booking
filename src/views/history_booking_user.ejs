@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/index.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>History Booking</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    * {
+      margin: 0px;
+      padding: 0px;
+      font-family: sans-serif;
+      box-sizing: border-box;
+    }
+    .wrapper {
+      margin: 0px auto;
+      height: 100vh;
+      max-width: 960px;
+    }
+    .search-area {
+      text-align: center;
+      padding: 20px;
+    }
+    .width-search {
+      width: 100%;
+      height: 40px;
+      background-color: wheat;
+      border-radius: 30px;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+    }
+    .width-search > i {
+      font-size: 20px;
+      color: #777;
+    }
+    .width-search > input {
+      background-color: wheat;
+      flex: 1;
+      height: 30px;
+      border: none;
+      outline: none;
+      font-size: 18px;
+    }
+    .booking-card {
+      padding: 20px;
+      background-color: #eeeeee;
+      grid-template-areas:
+        "aa"
+        "bb";
+    }
+    .info-card {
+      grid-area: aa;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .info-container {
+      grid-column: 2 / 4;
+    }
+    .check-dates {
+      display: flex;
+    }
+    .checkin-checkout .check-spacer {
+      border: 1px dashed;
+      display: inline-table;
+      height: 64px;
+      margin-left: 8px;
+      margin-right: 8px;
+    }
+    html[dir="ltr"] .checkin-checkout .check-spacer {
+      border-right-width: 0;
+    }
+    html[dir="rtl"] .checkin-checkout .check-spacer {
+      border-left-width: 0;
+    }
+    .checkin-checkout .check-dates .check-info .check-title {
+      font-size: 15px;
+      font-weight: 200;
+      line-height: 1.2;
+      margin-bottom: 4px;
+      padding-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    .content-contact {
+      padding: 0 7.2%;
+    }
+
+    .title > h3 {
+      color: #b4a073;
+      font-size: 23px;
+      margin-top: 1.5em;
+      text-transform: uppercase;
+    }
+
+    .title > h3:after {
+      background: #b4a073 none repeat scroll 0 0;
+      content: "";
+      display: block;
+      height: 2px;
+      margin: 0 auto;
+      width: 130px;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+
+    html[dir="ltr"] .checkin-checkout .check-dates .check-info .check-title {
+      letter-spacing: 0.4px;
+    }
+
+    html[dir="rtl"] .checkin-checkout .check-dates .check-info .check-title {
+      letter-spacing: normal;
+    }
+    .checkin-checkout {
+      float: right;
+      font-weight: 200;
+      vertical-align: top;
+    }
+
+    .checkin-checkou:after,
+    .checkin-checkout:before {
+      content: " ";
+      display: table;
+    }
+
+    .checkin-checkout:after {
+      clear: both;
+    }
+
+    html[dir="rtl"] .checkin-checkout {
+      float: left;
+    }
+    .bnt-detail {
+      padding: 30px;
+    }
+    .checkin-checkout .check-dates {
+      display: inline-table;
+    }
+
+    .checkin-checkout .check-dates .check-info {
+      display: inline-table;
+      vertical-align: top;
+    }
+
+    .checkin-checkout .check-dates .check-info .check-title {
+      font-size: 10px;
+      font-weight: 200;
+      line-height: 1.2;
+      margin-bottom: 4px;
+      padding-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    html[dir="ltr"] .checkin-checkout .check-dates .check-info .check-title {
+      letter-spacing: 0.4px;
+    }
+
+    html[dir="rtl"] .checkin-checkout .check-dates .check-info .check-title {
+      letter-spacing: normal;
+    }
+
+    .checkin-checkout .check-dates .check-info .check-date {
+      display: inline-table;
+    }
+
+    .checkin-checkout .check-dates .check-info .check-date .check-day {
+      display: inline-table;
+      font-size: 30px;
+      font-weight: 200;
+      line-height: 0.8;
+    }
+
+    html[dir="ltr"]
+      .checkin-checkout
+      .check-dates
+      .check-info
+      .check-date
+      .check-day {
+      letter-spacing: 1.2px;
+      margin-right: 5px;
+    }
+
+    html[dir="rtl"]
+      .checkin-checkout
+      .check-dates
+      .check-info
+      .check-date
+      .check-day {
+      letter-spacing: normal;
+      margin-left: 5px;
+    }
+
+    .checkin-checkout .check-dates .check-info .check-date .check-mon-weekday {
+      display: inline-table;
+      font-size: 10px;
+      font-weight: 200;
+      line-height: 2.4;
+      margin-top: -2px;
+      vertical-align: top;
+    }
+
+    html[dir="ltr"]
+      .checkin-checkout
+      .check-dates
+      .check-info
+      .check-date
+      .check-mon-weekday {
+      letter-spacing: 0.4px;
+    }
+
+    html[dir="rtl"]
+      .checkin-checkout
+      .check-dates
+      .check-info
+      .check-date
+      .check-mon-weekday {
+      letter-spacing: normal;
+    }
+
+    .checkin-checkout
+      .check-dates
+      .check-info
+      .check-date
+      .check-mon-weekday
+      .check-mon {
+      margin-bottom: -10px;
+      margin-top: -5px;
+    }
+    .checkin-checkout .check-dates {
+      display: inline-table;
+    }
+
+    .checkin-checkout .check-dates .check-info {
+      display: inline-table;
+      vertical-align: top;
+    }
+
+    .checkin-checkout .check-dates .check-info .check-title {
+      font-size: 10px;
+      font-weight: 200;
+      line-height: 1.2;
+      margin-bottom: 4px;
+      padding-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    html[dir="ltr"] .checkin-checkout .check-dates .check-info .check-title {
+      letter-spacing: 0.4px;
+    }
+
+    html[dir="rtl"] .checkin-checkout .check-dates .check-info .check-title {
+      letter-spacing: normal;
+    }
+
+    .checkin-checkout .check-dates .check-info .check-date {
+      display: inline-table;
+    }
+
+    .checkin-checkout .check-dates .check-info .check-date .check-day {
+      display: inline-table;
+      font-size: 30px;
+      font-weight: 200;
+      line-height: 0.8;
+    }
+
+    html[dir="ltr"]
+      .checkin-checkout
+      .check-dates
+      .check-info
+      .check-date
+      .check-day {
+      letter-spacing: 1.2px;
+      margin-right: 5px;
+    }
+
+    html[dir="rtl"]
+      .checkin-checkout
+      .check-dates
+      .check-info
+      .check-date
+      .check-day {
+      letter-spacing: normal;
+      margin-left: 5px;
+    }
+
+    .checkin-checkout .check-dates .check-info .check-date .check-mon-weekday {
+      display: inline-table;
+      font-size: 10px;
+      font-weight: 200;
+      line-height: 2.4;
+      margin-top: -2px;
+      vertical-align: top;
+    }
+
+    html[dir="ltr"]
+      .checkin-checkout
+      .check-dates
+      .check-info
+      .check-date
+      .check-mon-weekday {
+      letter-spacing: 0.4px;
+    }
+
+    html[dir="rtl"]
+      .checkin-checkout
+      .check-dates
+      .check-info
+      .check-date
+      .check-mon-weekday {
+      letter-spacing: normal;
+    }
+
+    .checkin-checkout
+      .check-dates
+      .check-info
+      .check-date
+      .check-mon-weekday
+      .check-mon {
+      margin-bottom: -10px;
+      margin-top: -5px;
+    }
+    .book-list .booking-card .mmb-button-item {
+      -ms-flex-pack: end;
+      border-top: 1px solid;
+      display: -ms-flexbox;
+      display: flex;
+      font-weight: 700;
+      justify-content: flex-end;
+      padding: 0 8px;
+      width: 100%;
+    }
+
+    .book-list .booking-card .mmb-button-item div:first-of-type {
+      -ms-flex: 5;
+      flex: 5;
+      margin: auto 0;
+      padding: 16px 8px;
+    }
+
+    .book-list .booking-card .mmb-button-item div:last-of-type {
+      -ms-flex-item-align: center;
+      align-self: center;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex: 0 1 auto;
+      flex: 0 1 auto;
+    }
+
+    .book-list .booking-card .mmb-button-item .agoda-action-button {
+      float: right;
+      margin: 8px;
+      padding: 0 16px;
+    }
+
+    html[dir="rtl"]
+      .book-list
+      .booking-card
+      .mmb-button-item
+      .agoda-action-button {
+      float: left;
+    }
+
+    .book-list .booking-card .mmb-button-item .mmb-button-txt {
+      font-size: 14px;
+      line-height: 2;
+      padding: 0 16px;
+    }
+
+    html[dir="ltr"] .book-list .booking-card .mmb-button-item .mmb-button-txt {
+      border-right: 1px solid;
+    }
+
+    html[dir="rtl"] .book-list .booking-card .mmb-button-item .mmb-button-txt {
+      border-left-color: 1px solid;
+    }
+
+    html[dir="ltr"]
+      .book-list
+      .booking-card
+      .mmb-button-item
+      .mmb-button-txt:first-child {
+      padding-left: 0;
+    }
+
+    html[dir="rtl"]
+      .book-list
+      .booking-card
+      .mmb-button-item
+      .mmb-button-txt:first-child {
+      padding-right: 0;
+    }
+
+    html[dir="ltr"]
+      .book-list
+      .booking-card
+      .mmb-button-item
+      .mmb-button-txt:last-child {
+      border-right: none;
+      padding-right: 0;
+    }
+
+    html[dir="rtl"]
+      .book-list
+      .booking-card
+      .mmb-button-item
+      .mmb-button-txt:last-child {
+      border-left: none;
+      padding-left: 0;
+    }
+    .booking-list .mmb-bgc-booking .mmb-button-item .agoda-action-button {
+      float: right;
+      margin: 8px;
+      padding: 0 16px;
+    }
+  </style>
+  <body>
+    <!--header-->
+    <%- include('./partials/header'); -%>
+    <div class="title text-center">
+      <h3>HISTORY BOOKING</h3>
+    </div>
+    <!--Content-->
+
+    <div class="wrapper">
+      <% if(!user){ if(bookingData && roomData){%>
+      <form method="POST" action="/history_booking">
+        <div class="search-area">
+          <div class="width-search">
+            <button type="submit" style="background: transparent; border: none">
+              <i class="fa fa-search"></i>
+            </button>
+            <input
+              type="text"
+              name="phone"
+              placeholder="Search your history booking..."
+              value="<%= phone_number_pay %>" />
+          </div>
+        </div>
+      </form>
+
+      <div class="book-list">
+        <div class="booking-card">
+          <div class="info-card">
+            <div class="picture-hotel">
+              <figure>
+                <img
+                  src="/images/room/<%= roomData.type%>/<%= roomData.image%>"
+                  alt=""
+                  width="250px"
+                  height="150px" />
+              </figure>
+            </div>
+            <div class="info-container">
+              <div class="checkin-checkout">
+                <div class="check-dates">
+                  <div
+                    class="check-info"
+                    style="display: flex; flex-direction: column">
+                    <div class="check-title" data-selenium="check-in-label">
+                      Check in
+                    </div>
+                    <div class="check-date">
+                      <div class="check-day" data-selenium="check-in-day">
+                        <%if(formattedCheckInDate){%> <%= formattedCheckInDate%>
+                        <%}else{%> N/A <%}%>
+                      </div>
+                    </div>
+                  </div>
+                  <br />
+                  <div class="check-info">
+                    <div class="check-title" data-selenium="check-out-label">
+                      Check out
+                    </div>
+                    <div class="check-date">
+                      <div class="check-day" data-selenium="check-out-day">
+                        <%if(formattedCheckOutDate){%> <%=
+                        formattedCheckOutDate%> <%}else{%> N/A <%}%>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ul class="hotel-info-top">
+                <li class="id-code">
+                  <h5 class="info-id">Code Booking: <%= bookingData._id%></h5>
+                </li>
+                <li class="hotel-title" data-selenium="hotel-name">
+                  <h5>Room: <%= roomData.name%></h5>
+                </li>
+                <li class="hotel-title" data-selenium="hotel-name">
+                  <h5>Type: <%= roomData.type%></h5>
+                </li>
+                <li class="hotel-title" data-selenium="hotel-name">
+                  <h5>Services: <%= bookingData.services%></h5>
+                </li>
+                <li class="hotel-title" data-selenium="hotel-name">
+                  <h5>
+                    Total: <%=
+                    bookingData.total.toLocaleString('vi-VN').replace(/\./g,
+                    ',')%> VND
+                  </h5>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="mmb-button-item"></div>
+        </div>
+      </div>
+      <%}else{%>
+      <form method="POST" action="/history_booking">
+        <div class="search-area">
+          <div class="width-search">
+            <button type="submit" style="background: transparent; border: none">
+              <i class="fa fa-search"></i>
+            </button>
+            <input
+              type="text"
+              name="phone"
+              placeholder="Search your history booking..." />
+          </div>
+        </div>
+      </form>
+      <p>No Data found!</p>
+      <%}%> <%}else{%>
+      <div class="book-list">
+        <% if (bookingData && roomData) { %> <%
+        formattedBookingData.forEach(function(formattedBooking, index) { %> <%
+        let booking = bookingData[index]; %> <% let room = roomData.find((room)
+        => room._id.equals(booking.room)); %> <% if (room) { %>
+        <div class="booking-card">
+          <div class="info-card">
+            <div class="picture-hotel">
+              <figure>
+                <img
+                  src="/images/room/<%= room.type%>/<%= room.image%>"
+                  alt=""
+                  width="260vw"
+                  height="200vh" />
+              </figure>
+            </div>
+            <div class="info-container">
+              <div class="checkin-checkout">
+                <div class="check-dates">
+                  <div
+                    class="check-info"
+                    style="display: flex; flex-direction: column">
+                    <div class="check-title" data-selenium="check-in-label">
+                      Check in
+                    </div>
+                    <div class="check-date">
+                      <div class="check-day" data-selenium="check-in-day">
+                        <%= formattedBooking.formattedCheckInDate %>
+                      </div>
+                    </div>
+                  </div>
+                  <br />
+                  <div class="check-info">
+                    <div class="check-title" data-selenium="check-out-label">
+                      Check out
+                    </div>
+                    <div class="check-date">
+                      <div class="check-day" data-selenium="check-out-day">
+                        <%= formattedBooking.formattedCheckOutDate %>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <ul class="hotel-info-top">
+                <li class="id-code">
+                  <h5 class="info-id">Room: <%= room.name %></h5>
+                </li>
+                <li>
+                  <h5>No of people: <%= booking.noOfPeople %></h5>
+                </li>
+                <li>
+                  <h5>Type: <%= booking.roomType %></h5>
+                </li>
+                <li>
+                  <h5>Services: <%= booking.services %></h5>
+                </li>
+                <li>
+                  <h5>Services Price: <%= booking.servicesPrice %></h5>
+                </li>
+                <li>
+                  <h5>
+                    Room Price: <%=
+                    booking.roomPrice.toLocaleString('vi-VN').replace(/\./g,
+                    ',')%> VND
+                  </h5>
+                </li>
+                <li>
+                  <h5>
+                    Total: <%=
+                    booking.total.toLocaleString('vi-VN').replace(/\./g, ',') %>
+                    VND
+                  </h5>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="mmb-button-item"></div>
+        </div>
+        <% }%> <% }); %> <% }else { %>
+        <p>No bookings found.</p>
+        <% } %>
+      </div>
+      <%}%>
+    </div>
+
+    <!--Footer-->
+    <!-- <%- include('./partials/footer'); -%> -->
+  </body>
+  <% if(typeof bookingId !== 'undefined') {%>
+  <script>
+    $(document).ready(function () {
+      $("#booking-modal").show();
+    });
+  </script>
+  <div class="modal" id="booking-modal" aria-hidden="true">
+    <form action="/history_booking_user" method="post">
+      <div class="modal-content">
+        <h4>Booking successfully!</h4>
+        <input type="hidden" name="phone" value="<%= phone_number_pay%>" />
+        <p>
+          Your booking has been successfully created. Your booking ID is <%=
+          bookingId%>.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="submit"
+          class="waves-effect waves-green btn-flat"
+          data-dismiss="modal">
+          Woohoo
+        </button>
+      </div>
+    </form>
+  </div>
+  <%}%>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // lắng nghe sự kiện khi người dùng nhấn enter trên input tìm kiếm
+      $('input[name="bookingId"]').keypress(function (event) {
+        if (event.which == 13) {
+          event.preventDefault();
+          // lấy giá trị từ input tìm kiếm
+          var searchValue = $(this).val();
+          // xử lý tìm kiếm ở đây
+          console.log("Đã tìm kiếm với giá trị: " + searchValue);
+          res.redirect;
+        }
+      });
+    });
+  </script>
+</html>

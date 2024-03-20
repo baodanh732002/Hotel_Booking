@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="/css/index.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>contact Us</title>
+        
+    </head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+</style>
+<body>
+<!--header-->
+    <%- include('./partials/header'); -%>
+
+<!--Content-->
+
+    <div id="stop-scroll">
+
+        <div class="content-contact">
+            <!--CONTACT US-->
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title text-center">
+
+                <h3>REACH US</h3>
+
+            </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hotel-booking">
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+
+                    <h4>Contact Details</h4>
+
+                    <div class="clearfix margint-20"></div>
+
+                    <p style="margin-top:20px"><strong class="title-info">Address: </strong>19 Nguyen Huu Tho Street, Tan Hung Ward, Dictrict 7, Ho Chi Minh City</p>
+
+                    <p><strong class="title-info">Phone number: </strong>(+84) 6868686868</p>
+
+                    <p><strong class="title-info">Fax: </strong>(+84) 6666888855</p>
+
+                    <p><strong class="title-info">Email: </strong>admin@gmail.com.vn</p>
+
+                </div>
+
+        <form method="post" action="">
+
+            <input type="hidden" name="_token" value="iQeaiDHJ8oJ5AaTpbinhVX6RGqwHNUVE8SLxB07g">
+                <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 contact-description">
+
+                    <h4>WE WANT TO HEAR FROM YOU!</h4>
+
+                    <h5>Please send us any of your questions</h5>
+
+                    <label>Full Name*</label>
+
+                    <input type="text" name="name" class="form-control" required="">
+
+                    <label>Email*</label>
+
+                    <input type="email" name="email" class="form-control" required="">
+
+                    <label>Phone number</label>
+
+                    <input type="number" name="phone" class="form-control" required="">
+
+                    <label class="message">Message*</label>
+
+                    <textarea name="message" class="form-control" rows="10"></textarea><br><br>
+            
+                    <button class="btn pull-right" type="submit" style="background-color: #78635a; color: white">SEND</button>
+
+                </div>
+
+        </form>
+
+            </div>
+
+            <!--END CONTACT US-->
+
+            <div class="clearfix"></div>
+
+        </div>
+    
+        <style>
+
+            .content-contact{padding: 0 7.2%;}
+          
+              .title > h3{ color: #b4a073; font-size: 23px; margin-top: 1.5em; text-transform: uppercase; }
+          
+              .title > h3:after{ background: #b4a073 none repeat scroll 0 0; content: ""; display: block; height: 2px; margin:0 auto; width: 130px; margin-top: 10px; margin-bottom: 0px }
+          
+              .home-nikko{ margin-top: 20px }
+          
+            .contact-description h4, .contact-description h5{ line-height: 26px }
+          
+              h4{ font-size: 17px; text-transform: uppercase; color:  #b4a073; }
+          
+              .margint-20{ margin-top: 20px }
+          
+              .title-info{ color: #b4a073; }
+          
+              h5{ font-size: 15px; color:  #b4a073; }
+          
+              #location-map { min-height: 270px; height: 100%; }
+          
+            .contact-description{ padding-left: 30px }
+          
+            .contact-description label{ margin-top: 20px; }
+          
+            .contact-description label.message{ margin: 20px 0; }
+          
+            .btn-book:hover {
+          
+              background: #b4a073;
+          
+              color: #fff;
+          
+              transition: all 0.7s ease;
+          
+          }
+          
+          @media  only screen and (max-width: 480px){
+          
+            .title > h3{ font-size: 1.5em }
+          
+            .contact-description{ padding-left: 15px }
+          
+            .content-contact{ padding: 0 10px; }
+          
+            .title > h3:after{ width: 80px; }
+          
+          }
+          
+          </style>
+    <!--Footer-->
+    <%- include('./partials/footer'); -%>
+
+</body>
+</html> 

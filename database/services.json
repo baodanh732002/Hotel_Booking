@@ -1,0 +1,118 @@
+[{
+  "_id": {
+    "$oid": "644285c4bcb5df283988251d"
+  },
+  "name": "Swimming",
+  "acronym": "swim",
+  "price": 30000,
+  "type": "Entertainment",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644285dcbcb5df2839882520"
+  },
+  "name": "Japan Buffet",
+  "acronym": "jpbuffet",
+  "price": 60000,
+  "type": "Meal",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64428606bcb5df2839882525"
+  },
+  "name": "Pick up at Airport",
+  "acronym": "puAirPort",
+  "price": 400000,
+  "type": "Transport",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443040591bcd9bf438564e4"
+  },
+  "name": "Tennis",
+  "acronym": "tennis",
+  "price": 50000,
+  "type": "Entertainment",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443043891bcd9bf438564ed"
+  },
+  "name": "Golf",
+  "acronym": "golf",
+  "price": 500000,
+  "type": "Entertainment",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443046791bcd9bf438564f1"
+  },
+  "name": "Spa - Massage",
+  "acronym": "spa",
+  "price": 100000,
+  "type": "Entertainment",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443048391bcd9bf438564f4"
+  },
+  "name": "VietNamese Buffet",
+  "acronym": "vnbuffet",
+  "price": 300000,
+  "type": "Meal",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644304bb91bcd9bf438564f9"
+  },
+  "name": "Korea Buffet",
+  "acronym": "krbuffet",
+  "price": 600000,
+  "type": "Meal",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644304d891bcd9bf438564fc"
+  },
+  "name": "Thailand Buffet",
+  "acronym": "thbuffet",
+  "price": 500000,
+  "type": "Meal",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644304f591bcd9bf43856501"
+  },
+  "name": "Bike rental",
+  "acronym": "bike",
+  "price": 50000,
+  "type": "Transport",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443050a91bcd9bf43856504"
+  },
+  "name": "Mortorbike rental",
+  "acronym": "mortor",
+  "price": 100000,
+  "type": "Transport",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443051e91bcd9bf43856507"
+  },
+  "name": "Boat rental",
+  "acronym": "boat",
+  "price": 200000,
+  "type": "Transport",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443052c91bcd9bf4385650a"
+  },
+  "name": "Car rental",
+  "acronym": "car",
+  "price": 300000,
+  "type": "Transport",
+  "__v": 0
+}]

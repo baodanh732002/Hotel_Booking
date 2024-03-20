@@ -1,0 +1,157 @@
+[{
+  "_id": {
+    "$oid": "6442fe3991bcd9bf4385649e"
+  },
+  "name": "Single Room 1",
+  "noP": 1,
+  "price": 500000,
+  "description": "A single room is a type of accommodation designed for one person.",
+  "type": "Basic",
+  "image": "room1_single.png",
+  "status": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6442ff3b91bcd9bf438564a5"
+  },
+  "name": "Single Room 2",
+  "noP": 1,
+  "price": 500000,
+  "description": "A single room is a comfortable and convenient accommodation designed.",
+  "type": "Basic",
+  "image": "room2_single.png",
+  "status": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6442ff7a91bcd9bf438564a8"
+  },
+  "name": "Couple Room 1",
+  "noP": 2,
+  "price": 600000,
+  "description": "A couple room is a type of accommodation designed for two people.",
+  "type": "Basic",
+  "image": "room3_couple.png",
+  "status": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6442ff9391bcd9bf438564ab"
+  },
+  "name": "Couple Room 2",
+  "noP": 1,
+  "price": 600000,
+  "description": "A couple room is an accommodation designed for two people.",
+  "type": "Basic",
+  "image": "room4_couple.png",
+  "status": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6442ffcb91bcd9bf438564ae"
+  },
+  "name": "Group Room 1",
+  "noP": 4,
+  "price": 1000000,
+  "description": "A group room is designed for several people traveling together.",
+  "type": "Basic",
+  "image": "room5_group.png",
+  "status": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6442ffe691bcd9bf438564b1"
+  },
+  "name": "Group Room 2",
+  "noP": 4,
+  "price": 1000000,
+  "description": "A group room is designed to accommodate several people traveling together.",
+  "type": "Basic",
+  "image": "room6_group.png",
+  "status": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644301b891bcd9bf438564bf"
+  },
+  "name": "Luxury Single 1",
+  "noP": 1,
+  "price": 1500000,
+  "description": "A luxury single room is an upscale accommodation for one person",
+  "type": "Luxury",
+  "image": "room1_single_luxury.png",
+  "status": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644301eb91bcd9bf438564c2"
+  },
+  "name": "Luxury Single 2",
+  "noP": 1,
+  "price": 1400000,
+  "description": "A luxury single room is a high-end accommodation for one person.",
+  "type": "Luxury",
+  "image": "room2_single_luxury.png",
+  "status": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644302dd91bcd9bf438564cb"
+  },
+  "name": "Luxury  Couple 1",
+  "noP": 2,
+  "price": 2000000,
+  "description": "A luxury couple room is a high-end accommodation designed for two people.",
+  "type": "Luxury",
+  "image": "room3_couple_luxury.png",
+  "status": true,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443030191bcd9bf438564ce"
+  },
+  "name": "Luxury Couple 2",
+  "noP": 2,
+  "price": 2400000,
+  "description": "A luxury couple room is a luxurious accommodation for two people.",
+  "type": "Luxury",
+  "image": "room4_couple_luxury.png",
+  "status": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443033b91bcd9bf438564d1"
+  },
+  "name": "Luxury Group 1",
+  "noP": 4,
+  "price": 3000000,
+  "description": "A luxury group room is designed for several people traveling together.",
+  "type": "Luxury",
+  "image": "room5_group_luxury.png",
+  "status": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443036191bcd9bf438564d4"
+  },
+  "name": "Luxury Group 2",
+  "noP": 4,
+  "price": 3500000,
+  "description": "A luxury group room is designed for multiple people traveling together.",
+  "type": "Luxury",
+  "image": "room6_group_luxury.png",
+  "status": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443f167b7d9ae36c73bb0d7"
+  },
+  "name": "Family Room 1",
+  "noP": 5,
+  "price": 1000000,
+  "description": "A family room is a type of accommodation designed to comfortably accommodate a family or a group of people traveling together",
+  "type": "Basic",
+  "image": "room7_family.png",
+  "status": true,
+  "__v": 0
+}]

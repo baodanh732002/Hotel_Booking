@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <title>Services</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    label {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 100;
+      margin-bottom: 10px;
+    }
+    span {
+      margin-top: 5px;
+      font-size: 25px;
+    }
+
+    .btn:hover {
+      color: #f9f7f4;
+      background-color: #9a5c42;
+      border-color: #78635a;
+    }
+  </style>
+  <body style="background-color: #78635a">
+    <div
+      class="container justify-content-between pb-5 pt-4"
+      style="background-color: white; margin-top: 100px">
+      <h1 style="text-align: center">CHOOSE SERVICE FOR YOU</h1>
+      <form action="/service" method="post">
+        <div class="d-flex">
+          <div class="col-4">
+            <div>
+              <img
+                src="images/symbol/symbol1.png"
+                style="
+                  height: 80px;
+                  width: 80px;
+                  justify-content: center;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                " />
+              <h3 class="mb-5" style="text-align: center">ENTERTAINMENT</h3>
+              <%if(entertainmentData && entertainmentData.length > 0){
+              entertainmentData.forEach(es => {%>
+              <div
+                style="margin-left: 50px; margin-top: 5px"
+                id="entertainment">
+                <input
+                  type="checkbox"
+                  id="<%= es.acronym%>"
+                  name="<%= es.acronym%>"
+                  value="<%= es.name%>" />
+                <label style="color: #574943" for="<%= es.acronym%>"
+                  ><%= es.name%></label
+                ><span
+                  class="pull-right"
+                  style="font-size: 14px; color: #78635a"
+                  ><strong
+                    ><%= es.price.toLocaleString('vi-VN').replace(/\./g,
+                    ',')%>&#8363;</strong
+                  ></span
+                ><br />
+              </div>
+              <%}) }%>
+            </div>
+          </div>
+          <div class="col-4">
+            <div>
+              <img
+                src="images/symbol/symbol2.png"
+                style="
+                  height: 80px;
+                  width: 80px;
+                  justify-content: center;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                " />
+              <h3 class="mb-5" style="text-align: center">MEAL</h3>
+              <%if(mealData && mealData.length > 0){ mealData.forEach(ms => {%>
+              <div style="margin-left: 50px; margin-top: 5px" id="meal">
+                <input
+                  type="checkbox"
+                  id="<%= ms.acronym%>"
+                  name="<%= ms.acronym%>"
+                  value="<%= ms.name%>" />
+                <label style="color: #574943" for="<%= ms.acronym%>"
+                  ><%= ms.name%></label
+                ><span
+                  class="pull-right"
+                  style="font-size: 14px; color: #78635a"
+                  ><strong
+                    ><%= ms.price.toLocaleString('vi-VN').replace(/\./g,
+                    ',')%>&#8363;</strong
+                  ></span
+                ><br />
+              </div>
+              <%}) }%>
+            </div>
+          </div>
+          <div class="col-4">
+            <div>
+              <img
+                src="images/symbol/symbol3.png"
+                style="
+                  height: 80px;
+                  width: 80px;
+                  justify-content: center;
+                  display: block;
+                  margin-left: auto;
+                  margin-right: auto;
+                " />
+              <h3 class="mb-5" style="text-align: center" id="transport">
+                TRANSPORT
+              </h3>
+              <%if(transportData && transportData.length > 0){
+              transportData.forEach(ts => {%>
+              <div>
+                <input
+                  type="checkbox"
+                  id="<%= ts.acronym%>"
+                  name="<%= ts.acronym%>"
+                  value="<%= ts.name%>" />
+                <label style="color: #574943" for="<%= ts.acronym%>"
+                  ><%= ts.name%></label
+                ><span
+                  class="pull-right"
+                  style="font-size: 14px; color: #78635a"
+                  ><strong
+                    ><%= ts.price.toLocaleString('vi-VN').replace(/\./g,
+                    ',')%>&#8363;</strong
+                  ></span
+                ><br />
+              </div>
+              <%}) }%>
+            </div>
+          </div>
+        </div>
+        <input
+          type="hidden"
+          id="id"
+          name="id"
+          placeholder=""
+          value="<%= roomId%>"
+          required />
+        <input
+          type="hidden"
+          id="checkIn"
+          name="checkIn"
+          placeholder=""
+          value="<%= checkIn%>"
+          required />
+        <input
+          type="hidden"
+          id="checkOut"
+          name="checkOut"
+          placeholder=""
+          value="<%= checkOut%>"
+          required />
+        <button
+          type="submit"
+          class="btn pull-right mt-5"
+          style="background-color: #78635a; color: white; outline: #78635a">
+          Next
+        </button>
+      </form>
+    </div>
+  </body>
+</html>

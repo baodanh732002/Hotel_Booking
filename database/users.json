@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "644234941a6de51170c1cbb9"
+  },
+  "name": "Huỳnh Huỳnh Đức",
+  "email": "hhd@gmail.com",
+  "password": "$2b$10$1b6h3XnjEKedhXu0ADrLkumwFWe6nKgCP49xrpYBDqfBstLD.7Q8y",
+  "phone": "0123456789",
+  "address": "TPHCM",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6442eb178bf3c536de184801"
+  },
+  "name": "Nguyễn Phúc Bảo Danh",
+  "email": "npb.danh@gmail.com",
+  "password": "$2b$10$edJSjuOrdmKLILPt5zhD0.rZLS/Th3eTFN8EteFY9wJnFqg959Uoa",
+  "phone": "0589609376",
+  "address": "Ho Chi Minh",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644320e67e2367ae93a6bd3e"
+  },
+  "name": "Huỳnh Phúc Nguyên",
+  "email": "neyun@gmail.com",
+  "password": "$2b$10$cXle.m7a2tapmsZVd9aAEOld4tr9LiJ3sKXPmjINllZE8hpXt6i0e",
+  "phone": "123456",
+  "address": "Ho Chi Minh",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64436307b4f404fb80fd7743"
+  },
+  "name": "Nguyễn Thanh Quí",
+  "email": "thanhqui3007@gmail.com",
+  "password": "$2b$10$JxDMwMm.IMaEu58asXU8y.KzJ/jG541RV9BlB/SRGfb5L1GThRzEq",
+  "phone": "09998098",
+  "address": "Đồng Tháp",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443f08cb7d9ae36c73bb099"
+  },
+  "name": "Nguyễn Thị Thanh Thảo ",
+  "email": "thao@gmail.com",
+  "password": "$2b$10$W1ecdyF.4eLNWfWvNzCfRezSPL3JjzpOwJ6PntiqKxoX2C7w5mXkC",
+  "phone": "0123456788",
+  "address": "Thanh pho Ho Chi Minh",
+  "__v": 0
+}]

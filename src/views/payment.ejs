@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Payment</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    button:hover {
+      color: #78635a;
+      background-color: #78635a;
+    }
+  </style>
+  <body style="background-color: #78635a">
+    <div
+      class="container d-flex justify-content-between pb-3 mb-5 pt-3"
+      style="background-color: white; margin-top: 60px">
+      <div class="box-1">
+        <div class="pb-3 mb-3">
+          <div class="d-flex justify-content-between mb-3">
+            <h3 id="roomname"><%= roomData.name%></h3>
+            <h3 id="price">
+              <%= roomData.price.toLocaleString('vi-VN').replace(/\./g,
+              ',')%>&#8363;
+            </h3>
+          </div>
+          <div class="img-fluid">
+            <img
+              src="images/room/<%= roomData.type%>/<%= roomData.image%>"
+              class="d-block w-100" /><br /><br />
+          </div>
+          <%if(user){%>
+          <p>
+            Order by:<span class="pull-right" id="order"><%=user.name%></span>
+          </p>
+          <p>
+            Phone number:<span class="pull-right" id="phone_number"
+              ><%=user.phone%></span
+            >
+          </p>
+          <p>
+            Address:<span class="pull-right" id="address"
+              ><%=user.address%></span
+            >
+          </p>
+          <p>
+            Check in:<span class="pull-right" id="check_in"><%= checkIn%></span>
+          </p>
+          <p>
+            Check out:<span class="pull-right" id="check_out"
+              ><%= checkOut%></span
+            >
+          </p>
+          <%}else{%>
+          <p>Order by:<input type="text" class="pull-right" id="order" /></p>
+          <p>
+            Phone number:<input
+              type="text"
+              class="pull-right"
+              id="phone_number" />
+          </p>
+          <p>Address:<input type="text" class="pull-right" id="address" /></p>
+          <p>
+            Check in:<span class="pull-right" id="check_in"><%= checkIn%></span>
+          </p>
+          <p>
+            Check out:<span class="pull-right" id="check_out"
+              ><%= checkOut%></span
+            >
+          </p>
+          <%}%>
+        </div>
+      </div>
+      <div class="box-2 w-100 ml-5">
+        <div>
+          <h3 class="font-weight-bold">Payment Details</h3>
+          <p class="dis mb-3">
+            Complete your purchase by providing your payment details
+          </p>
+        </div>
+
+        <div class="mb-3">
+          <%if(user){%>
+          <p class="dis font-weight-bold mb-2">Email address</p>
+          <input
+            class="form-control"
+            type="email"
+            value="<%=user.email%>"
+            name="email_pay"
+            id="email"
+            required />
+          <%}else{%>
+          <p class="dis font-weight-bold mb-2">Email address</p>
+          <input
+            class="form-control"
+            type="email"
+            value=""
+            name="email_pay"
+            id="email"
+            required />
+          <%}%>
+        </div>
+        <div>
+          <div class="my-3 cardname">
+            <p class="dis font-weight-bold mb-2" id="card_credit">
+              Card credit number
+            </p>
+            <input
+              class="form-control"
+              type="text"
+              id="credit"
+              name="credit"
+              pattern="[0-9]+"
+              required />
+          </div>
+          <div class="address">
+            <div class="d-flex flex-column disabled">
+              <div
+                class="d-flex align-items-center justify-content-between mb-2">
+                <p>Subtotal</p>
+                <p id="subtotal">
+                  <%= roomData.price.toLocaleString('vi-VN').replace(/\./g,
+                  ',')%>&#8363;
+                </p>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-between mb-2">
+                <p>Service total</p>
+                <p id="service_total">
+                  <%= totalServicePrice.toLocaleString('vi-VN').replace(/\./g,
+                  ',')%>&#8363;
+                </p>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-between mb-2">
+                <p>Services name</p>
+                <p id="service_name">
+                  <% if (selectedServices.length > 0) { %> <%=
+                  selectedServices.map(service => service.name).join(", ") %> <%
+                  } else { %> &nbsp; <% } %>
+                </p>
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-between mb-2">
+                <p class="fw-bold">Total</p>
+                <p class="fw-bold" id="total">
+                  <%= totalPrice.toLocaleString('vi-VN').replace(/\./g,
+                  ',')%>&#8363;
+                </p>
+              </div>
+              <%if(user){%>
+              <input type="hidden" id="id" name="id" value="<%= user._id%>" />
+              <input
+                type="hidden"
+                id="checkIn"
+                name="checkOut"
+                value="<%= checkIn%>" />
+              <input
+                type="hidden"
+                id="checkOut"
+                name="checkOut"
+                value="<%= checkOut%>" />
+              <%}%>
+
+              <button
+                type="submit"
+                id="pay_btn"
+                class="btn w-100"
+                data-toggle="modal"
+                data-target=".payment"
+                style="
+                  background-color: #78635a;
+                  color: white;
+                  border-color: #78635a;
+                ">
+                PAY
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade payment"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel1"
+      aria-hidden="true"
+      id="confirm_modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">PAY</h4>
+            <button type="button" class="close" data-dismiss="modal">
+              &times;
+            </button>
+          </div>
+
+          <!-- Modal body -->
+          <form action="/payment" method="post">
+            <div class="modal-body">
+              <input type="hidden" id="email_pay" name="email_pay" />
+              <%if(!user){%>
+              <input
+                type="hidden"
+                id="phone_number_pay"
+                name="phone_number_pay" />
+              <%}%>
+              <input
+                type="hidden"
+                id="roomId"
+                name="roomId"
+                value="<%= roomData._id%>" />
+
+              <input
+                type="hidden"
+                id="checkIn"
+                name="checkIn"
+                value="<%= checkIn%>" />
+              <input
+                type="hidden"
+                id="checkOut"
+                name="checkOut"
+                value="<%= checkOut%>" />
+              <input
+                type="hidden"
+                id="roomPrice"
+                name="roomPrice"
+                value="<%= roomData.price%>" />
+              <input
+                type="hidden"
+                id="servicePrice"
+                name="servicePrice"
+                value="<%= totalServicePrice%>" />
+              <input type="hidden" id="credit_pay" name="credit_pay" required />
+              <input
+                type="hidden"
+                id="services"
+                name="services"
+                value="<% if (selectedServices.length > 0) { %><%= selectedServices.map(service => service.name).join(', ') %><% } else { %> &nbsp; <% } %>" />
+              <input
+                type="hidden"
+                id="total"
+                name="total"
+                value="<%= totalPrice%>" />
+              <h5>Confirm information to pay?</h5>
+            </div>
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button
+                type="submit"
+                class="btn"
+                style="background-color: #78635a; color: white">
+                Yes
+              </button>
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Cancel
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    $("#pay_btn").click(function () {
+      var email = $("#email").val();
+      var credit = $("#credit").val();
+      var phone = $("#phone_number").val();
+
+      if ($("#credit").val() == "") {
+        alert("Please fill in the credit card number");
+        return false;
+      }
+
+      // Set the value in the second form input
+      $("#email_pay").val(email);
+      $("#credit_pay").val(credit);
+      $("#phone_number_pay").val(phone);
+
+      // Open the modal
+      $("#confirm_modal").modal("show");
+    });
+  </script>
+</html>

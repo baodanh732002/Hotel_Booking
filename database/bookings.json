@@ -1,0 +1,2031 @@
+[{
+  "_id": {
+    "$oid": "64431014758939e73f06eaa2"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443101a758939e73f06eaa8"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644310267e2367ae93a6bce7"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6443033b91bcd9bf438564d1",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-11T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-11T00:00:00.000Z"
+  },
+  "roomPrice": 3000000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "",
+  "total": 3060000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443102c0bb9c0f4acd090ab"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443103eb2db9211ca3b6a02"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431041b2db9211ca3b6a08"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431044b2db9211ca3b6a0e"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443106ab2db9211ca3b6a14"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431090b2db9211ca3b6a1a"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431096b2db9211ca3b6a20"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644310cef08ff904cb937ac1"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644310d1f08ff904cb937ac7"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644311456f20aa54b8403869"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644311630d363eed58cd1317"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443119d09877763fe71591e"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644311cd7e2367ae93a6bd0d"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6443030191bcd9bf438564ce",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-05-02T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-19T00:00:00.000Z"
+  },
+  "roomPrice": 2400000,
+  "servicePrice": 960000,
+  "services": "Japan Buffet, VietNamese Buffet, Korea Buffet",
+  "credit": "5454543",
+  "total": 3360000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644311dfe1efcc7bc6d6c696"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431288ab3f4a8305d85ffd"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644312bbfdcaa7636706d7d7"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644312dcfdcaa7636706d7de"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431387fdcaa7636706d7e5"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431485fdcaa7636706d7ec"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644315f0f462c3f4fa66ebcb"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443187b012c180581f45318"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644318a5012c180581f4531f"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644319278dd33a40b246d683"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644319364f6433089b49d18a"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443194f6a39ef618052317b"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644319666a39ef6180523183"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431cc76a39ef618052318b"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431d5e6a39ef6180523193"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431d926a39ef618052319b"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431dc66a39ef61805231a3"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431df97e2367ae93a6bd36"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff3b91bcd9bf438564a5",
+  "type": "Basic",
+  "checkInDate": {
+    "$date": "2023-05-03T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 1680000,
+  "services": "Swimming, Tennis, Golf, Spa - Massage, Korea Buffet, Pick up at Airport",
+  "credit": "1234567",
+  "total": 2180000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431e126a39ef61805231ab"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431e2e6a39ef61805231b3"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431e936a39ef61805231bd"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431ec06a39ef61805231c5"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431ed36a39ef61805231cd"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431f896a39ef61805231d5"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64431f956a39ef61805231dd"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443204c6a39ef61805231e5"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644320816a39ef61805231ed"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644321226a39ef61805231f5"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644321766a39ef61805231fd"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443217d6a39ef6180523205"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644321856a39ef618052320d"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644321906a39ef6180523215"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644321aa6a39ef618052321d"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644321c97e2367ae93a6bd59"
+  },
+  "user": "neyun@gmail.com",
+  "phone": "123456",
+  "room": "644301b891bcd9bf438564bf",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-19T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-18T00:00:00.000Z"
+  },
+  "roomPrice": 1500000,
+  "servicePrice": 2140000,
+  "services": "Swimming, Golf, Spa - Massage, Japan Buffet, VietNamese Buffet, Korea Buffet, Thailand Buffet, Bike rental",
+  "credit": "13544567",
+  "total": 3640000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644321d86a39ef6180523225"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644322136a39ef618052322d"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443221e6a39ef6180523235"
+  },
+  "user": "hhd@gmail.com",
+  "phone": "0123456789",
+  "room": "644302dd91bcd9bf438564cb",
+  "type": "Luxury",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 2000000,
+  "servicePrice": 50000,
+  "services": "Tennis",
+  "credit": "121212121121212",
+  "total": 2050000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644360f7b4f404fb80fd771d"
+  },
+  "user": "thanhqui3007@gmail.com",
+  "phone": "",
+  "room": "6442fe3991bcd9bf4385649e",
+  "type": "Basic",
+  "checkInDate": {
+    "$date": "2023-04-21T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-27T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 0,
+  "services": "   ",
+  "credit": "5644650448",
+  "total": 500000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439030ab9cc0beddf13bfd"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff3b91bcd9bf438564a5",
+  "checkInDate": {
+    "$date": "2023-04-11T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-10T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "1134353545",
+  "total": 860000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439200ab9cc0beddf13c1b"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-04-11T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-10T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "12343445",
+  "total": 960000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644392e9ab9cc0beddf13c23"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-04-11T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-10T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "12343445",
+  "total": 960000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439355ab9cc0beddf13c3b"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff9391bcd9bf438564ab",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-11T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "243434",
+  "total": 660000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443943dab9cc0beddf13c43"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff9391bcd9bf438564ab",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-11T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "243434",
+  "total": 660000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443944cab9cc0beddf13c5a"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff9391bcd9bf438564ab",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-11T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "243434",
+  "total": 660000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "644394f6f86e50cf6b733910"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ffcb91bcd9bf438564ae",
+  "checkInDate": {
+    "$date": "2023-03-29T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-03-27T00:00:00.000Z"
+  },
+  "roomPrice": 1000000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "324354",
+  "total": 1360000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439547513e3be729cbb950"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ffe691bcd9bf438564b1",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-18T00:00:00.000Z"
+  },
+  "roomPrice": 1000000,
+  "servicePrice": 400000,
+  "services": "Pick up at Airport",
+  "credit": "546566767",
+  "total": 1400000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439a7e586bf5624d498d73"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6443036191bcd9bf438564d4",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-19T00:00:00.000Z"
+  },
+  "roomPrice": 3500000,
+  "servicePrice": 30000,
+  "services": "Swimming",
+  "credit": "354656767",
+  "total": 3530000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439ab07b2114c507ec92c1"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6443033b91bcd9bf438564d1",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-19T00:00:00.000Z"
+  },
+  "roomPrice": 3000000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "344545656",
+  "total": 3060000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439b9917d932e29a1a5596"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6443030191bcd9bf438564ce",
+  "checkInDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "roomPrice": 2400000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "243455456",
+  "total": 2760000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439c7a17d932e29a1a55ac"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442fe3991bcd9bf4385649e",
+  "checkInDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-25T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "55464564",
+  "total": 860000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439d243deea206b257f021"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442fe3991bcd9bf4385649e",
+  "checkInDate": {
+    "$date": "2023-05-02T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-05-02T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "45656456",
+  "total": 860000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439dae11d97f83fd9ba182"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff3b91bcd9bf438564a5",
+  "checkInDate": {
+    "$date": "2023-03-29T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-03-28T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "6756765756",
+  "total": 560000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439ee5cf0176f659e47179"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-03-30T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-19T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "5656456456",
+  "total": 960000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439f7c77f4b140ec6aea1f"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff9391bcd9bf438564ab",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-11T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "4556565",
+  "total": 960000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64439fc14d5a0e0cd483f157"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ffcb91bcd9bf438564ae",
+  "checkInDate": {
+    "$date": "2023-04-30T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-04T00:00:00.000Z"
+  },
+  "roomPrice": 1000000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "35565",
+  "total": 1060000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443a043a160d298f3063b3f"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff3b91bcd9bf438564a5",
+  "checkInDate": {
+    "$date": "2023-04-06T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "4534543534",
+  "total": 560000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443a0ebcbd81e49cf3de1f9"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff9391bcd9bf438564ab",
+  "checkInDate": {
+    "$date": "2023-04-27T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 1260000,
+  "services": "Japan Buffet, VietNamese Buffet, Korea Buffet, Car rental",
+  "credit": "656464645",
+  "total": 1860000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443a11bcbd81e49cf3de211"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442fe3991bcd9bf4385649e",
+  "checkInDate": {
+    "$date": "2023-04-04T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "3465365467456",
+  "total": 860000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443a3c966ae87f0cc8fbfa1"
+  },
+  "user": "danh@gmail.com",
+  "phone": "0549545",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-03-29T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-04T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "123567",
+  "total": 660000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443a550a1b9021625d1f288"
+  },
+  "user": "danh@gmail.com",
+  "phone": "0549545",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-03-29T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-04T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "123567",
+  "total": 660000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443a58e49b2f39b865d1c40"
+  },
+  "user": "danh@gmail.com",
+  "phone": "53456",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-03-29T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-04T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "242564767",
+  "total": 960000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443a94349b2f39b865d1c54"
+  },
+  "user": "danh@gmail.com",
+  "phone": "0589609376",
+  "room": "6442ffcb91bcd9bf438564ae",
+  "checkInDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "roomPrice": 1000000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "1234567",
+  "total": 1060000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443aa0a49b2f39b865d1c59"
+  },
+  "user": "danh@gmail.com",
+  "phone": "0589609376",
+  "room": "6442ffcb91bcd9bf438564ae",
+  "checkInDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "roomPrice": 1000000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "1234567",
+  "total": 1060000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443aa1949b2f39b865d1c5e"
+  },
+  "user": "danh@gmail.com",
+  "phone": "0589609376",
+  "room": "6442ffcb91bcd9bf438564ae",
+  "checkInDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "roomPrice": 1000000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "1234567",
+  "total": 1060000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443ab17303db02d6689d14b"
+  },
+  "user": "danh@gmail.com",
+  "phone": "0589609376",
+  "room": "6442ffcb91bcd9bf438564ae",
+  "checkInDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "roomPrice": 1000000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "1234567",
+  "total": 1060000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443aba5303db02d6689d177"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442fe3991bcd9bf4385649e",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 30000,
+  "services": "Swimming",
+  "credit": "656456456",
+  "total": 530000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443ac2d303db02d6689d188"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff3b91bcd9bf438564a5",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "45676756756",
+  "total": 860000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443ac81cfc609703b5f10bc"
+  },
+  "user": "danh@gmail.com",
+  "phone": "123456",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "45657786986",
+  "total": 660000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443ae2d4117e1d4b476c521"
+  },
+  "user": "danh@gmail.com",
+  "phone": "94808957340",
+  "room": "6442ff9391bcd9bf438564ab",
+  "checkInDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 300000,
+  "services": "VietNamese Buffet",
+  "credit": "1254678996",
+  "total": 900000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443d6f59a11bdb69bff8ad3"
+  },
+  "user": "danh@gmail.com",
+  "phone": "03894695",
+  "room": "6442ffcb91bcd9bf438564ae",
+  "checkInDate": {
+    "$date": "2023-04-22T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-23T00:00:00.000Z"
+  },
+  "roomPrice": 1000000,
+  "servicePrice": 730000,
+  "services": "Swimming, Tennis, Korea Buffet, Bike rental",
+  "credit": "54334343463",
+  "total": 1730000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443d7b4d4a33d1006852fa7"
+  },
+  "user": "danh@gmail.com",
+  "phone": "5435342",
+  "room": "6442ffe691bcd9bf438564b1",
+  "checkInDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-18T00:00:00.000Z"
+  },
+  "roomPrice": 1000000,
+  "servicePrice": 380000,
+  "services": "Swimming, Tennis, VietNamese Buffet",
+  "credit": "345566565",
+  "total": 1380000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443da27fb4e24ea5804021f"
+  },
+  "user": "danh@gmail.com",
+  "phone": "0589609376",
+  "room": "6442fe3991bcd9bf4385649e",
+  "checkInDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-10T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 80000,
+  "services": "Swimming, Tennis",
+  "credit": "12345678",
+  "total": 580000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443dc2e90a571af832ee85f"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff3b91bcd9bf438564a5",
+  "checkInDate": {
+    "$date": "2023-04-19T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-25T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 580000,
+  "services": "Swimming, Tennis, VietNamese Buffet, Boat rental",
+  "credit": "35456676776877",
+  "total": 1080000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443dcb0378280d0bb4539f2"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 80000,
+  "services": "Swimming, Tennis",
+  "credit": "2343544545",
+  "total": 680000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443dceb66e262cfa19faf7c"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 80000,
+  "services": "Swimming, Tennis",
+  "credit": "2343544545",
+  "total": 680000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443dd3766e262cfa19fafa2"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442fe3991bcd9bf4385649e",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-12T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 80000,
+  "services": "Swimming, Tennis",
+  "credit": "5454545454545",
+  "total": 580000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443dd6c3bb3ce89647e812b"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff3b91bcd9bf438564a5",
+  "checkInDate": {
+    "$date": "2023-04-06T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-19T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 30000,
+  "services": "Swimming",
+  "credit": "2453454353534",
+  "total": 530000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443dde33e87b29535a9a5c2"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-04-27T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-27T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 30000,
+  "services": "Swimming",
+  "credit": "23443544454",
+  "total": 630000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443de742a8f7a1be388c6b0"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff9391bcd9bf438564ab",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-11T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "4534534534",
+  "total": 660000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443def25b669b6731f66aa9"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442fe3991bcd9bf4385649e",
+  "checkInDate": {
+    "$date": "2023-04-18T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 60000,
+  "services": "Japan Buffet",
+  "credit": "234534564",
+  "total": 560000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443dfc3055d5d23cc71fb27"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff3b91bcd9bf438564a5",
+  "checkInDate": {
+    "$date": "2023-04-04T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-27T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 30000,
+  "services": "Swimming",
+  "credit": "3434343",
+  "total": 530000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443e01f0089d59590fe2a74"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff9391bcd9bf438564ab",
+  "checkInDate": {
+    "$date": "2023-04-26T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-05-04T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 30000,
+  "services": "Swimming",
+  "credit": "34343434",
+  "total": 630000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443e0dce7ed7e2af8994b3d"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-05-03T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-05-05T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 30000,
+  "services": "Swimming",
+  "credit": "3232323",
+  "total": 630000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443e14381ea662ae3693c77"
+  },
+  "user": "npb.danh@gmail.com",
+  "phone": "0589609378",
+  "room": "6442fe3991bcd9bf4385649e",
+  "checkInDate": {
+    "$date": "2023-04-19T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-05-04T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 30000,
+  "services": "Swimming",
+  "credit": "32323232",
+  "total": 530000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443eb572051c1d712685785"
+  },
+  "user": "danh@gmail.com",
+  "phone": "0589609379",
+  "room": "6442ff7a91bcd9bf438564a8",
+  "checkInDate": {
+    "$date": "2023-04-25T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-30T00:00:00.000Z"
+  },
+  "roomPrice": 600000,
+  "servicePrice": 280000,
+  "services": "Swimming, Tennis, Boat rental",
+  "credit": "043672892392",
+  "total": 880000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443f01cb7d9ae36c73bb08b"
+  },
+  "user": "danh@gmail.com",
+  "phone": "0589603979",
+  "room": "6442fe3991bcd9bf4385649e",
+  "checkInDate": {
+    "$date": "2023-04-25T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-30T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 730000,
+  "services": "Swimming, VietNamese Buffet, Pick up at Airport",
+  "credit": "94738484339",
+  "total": 1230000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443f10db7d9ae36c73bb0c5"
+  },
+  "user": "thao@gmail.com",
+  "phone": "0123456788",
+  "room": "6443030191bcd9bf438564ce",
+  "checkInDate": {
+    "$date": "2023-04-05T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-20T00:00:00.000Z"
+  },
+  "roomPrice": 2400000,
+  "servicePrice": 550000,
+  "services": "Tennis, Golf",
+  "credit": "3232323566",
+  "total": 2950000,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6443f1d7b7d9ae36c73bb0ee"
+  },
+  "user": "danh@gmail.com",
+  "phone": "435435435",
+  "room": "6442ff3b91bcd9bf438564a5",
+  "checkInDate": {
+    "$date": "2023-04-06T00:00:00.000Z"
+  },
+  "checkOutDate": {
+    "$date": "2023-04-20T00:00:00.000Z"
+  },
+  "roomPrice": 500000,
+  "servicePrice": 360000,
+  "services": "Japan Buffet, VietNamese Buffet",
+  "credit": "12345666",
+  "total": 860000,
+  "__v": 0
+}]

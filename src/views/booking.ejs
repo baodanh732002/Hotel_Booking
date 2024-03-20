@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="/css/index.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Searching Room</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card {
+      border: none !important;
+      outline: none; 
+    }
+  </style>
+  <body>
+    <!-- Header -->
+    <%- include('./partials/header'); -%> 
+
+    <div class="container">
+      <img src="/images/bookingnow.png" style="width: 100%" />
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img
+              src="/images/slide/carousel1.png"
+              alt="Luxury Hotel"
+              style="width: 100%" />
+            <div class="carousel-caption">
+              <h3>LUXURY Hotel</h3>
+              <p>We have many room for you!</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img
+              src="/images/slide/carousel2.png"
+              alt="Services"
+              style="width: 100%" />
+            <div class="carousel-caption">
+              <h3>More Services</h3>
+              <p>We have many Services for you to enjoy!</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <img
+              src="/images/slide/carousel3.png"
+              alt="Sight"
+              style="width: 100%" />
+            <div class="carousel-caption">
+              <h3>Perfect Sight</h3>
+              <p>Amazing views are waiting for you!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <br />
+      <h1 style="text-align: center; color: #78635a">BOOKING ROOM</h1>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div
+              class="card ml-4"
+              id="searchCard"
+              style="
+                text-align: center;
+                height: 300px;
+                color: #78635a;
+                background-image: url('images/background/background1.png');
+              ">
+              <div class="radio" style="margin-top: 40px; padding-top: 40px">
+                <span style="font-size: 20px; margin-bottom: 50px"
+                  >Check in: </span
+                ><br />
+                <%if(checkIn){%>
+                <input
+                  type="date"
+                  id="checkIn"
+                  style="margin-right: 150px; margin-left: 120px" name="checkIn" value="<%= checkIn%>"/><br />
+                <%}else{%>
+                  <input
+                  type="date"
+                  id="checkIn"
+                  style="margin-right: 150px; margin-left: 120px" name="checkIn"/><br />
+                  <%}%>
+                <span style="font-size: 20px">Check out: </span><br />
+                <%if(checkOut){%>
+                <input
+                  type="date"
+                  id="checkOut"
+                  style="margin-right: 150px; margin-left: 120px" name="checkOut" value="<%= checkOut || '' %>"/><br />
+                <%}else{%>
+                  <input
+                  type="date"
+                  id="checkOut"
+                  style="margin-right: 150px; margin-left: 120px" name="checkOut"/><br />
+                <%}%>
+                <span style="font-size: 20px">Type of room: </span><br />
+                <select class="form-select" aria-label="Default select example" name="type">
+                  <br />
+                  <option value="" <%= (!type) ? "selected" : "" %> >Choose your room type</option>
+                  <option value="Basic" <%= (type === "Basic") ? "selected" : "" %> >Basic</option>
+                  <option value="Luxury" <%= (type === "Luxury") ? "selected" : "" %>>Luxury</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-8">
+            <% if (roomType && roomType.length > 0) {
+              roomType.forEach(room => {%>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="highlights">
+                <div class="card">
+                  <img src="images/room/<%= room.type%>/<%= room.image %>" class="card-img-top" />
+                  <div class="card-body">
+                    <h4 class="card-title"><%= room.name %></h4>
+                    <p class="card-text">No of people: <%= room.noP %></p>
+                    <h5 class="text-danger font-weight-bold">
+                      From: <%= room.price.toLocaleString('vi-VN').replace(/\./g, ',') %> VND per night
+                    </h5>
+                    <a href="/room_detail?id=<%=room._id%>&checkIn=<%= checkIn%>&checkOut=<%= checkOut%>" class="btnHover btn mt-3" style="color: #78635a"
+                    >More information</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <%})
+          }%>
+        </div>
+      
+        
+    <!--Footer-->
+    
+  </body>
+  <%- include('./partials/footer'); -%>
+</html>
